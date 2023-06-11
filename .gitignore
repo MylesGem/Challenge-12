@@ -1,4 +1,4 @@
 #dependency 
 node_modules/ 
-express/
-nodemon/
+
+.env
