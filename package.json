@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-usermanagement",
+  "version": "1.0.0",
+  "description": "Employee Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MylesGem/Challenge-12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MylesGem/Challenge-12/issues"
+  },
+  "homepage": "https://github.com/MylesGem/Challenge-12#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
