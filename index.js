@@ -1,7 +1,7 @@
 const dbEnquiry = require('./db/index');
 const inquirer = require('inquirer');
-const title ="Employee Tracker";
 const logo = require ('asciiart-logo');
+const title ="Employee Tracker";
 
 const startQuestion = [{
     type:'list',
